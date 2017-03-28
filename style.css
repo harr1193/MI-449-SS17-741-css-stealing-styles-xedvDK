@@ -1,5 +1,5 @@
 span {
-  font-size: 70px;
+  font-size: 170px;
 }
 
 #first {
@@ -56,10 +56,10 @@ span {
   letter-spacing: 0.025em;
   text-decoration: none;
   transition: all 0.15s ease;
+  border: none;
 }
 
 .search.btn:hover {
-  color: #7795f8;
   transform: translateY(-1px);
   box-shadow:
     0 7px 14px rgba(50, 50, 93, 0.1),
@@ -67,7 +67,6 @@ span {
 }
 
 .search-btn:active {
-  color: #555abf;
   background-color: #f6f9fc;
   transform: translateY(1px);
   box-shadow:
