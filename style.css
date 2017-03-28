@@ -56,20 +56,26 @@ span {
   letter-spacing: 0.025em;
   text-decoration: none;
   transition: all 0.15s ease;
-  border: none;
+  border-style: none;
 }
 
-.search.btn:hover {
+.search-btn:hover {
   transform: translateY(-1px);
+  border-style: none;
   box-shadow:
     0 7px 14px rgba(50, 50, 93, 0.1),
     0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 .search-btn:active {
+  border-style: none;
   background-color: #f6f9fc;
   transform: translateY(1px);
   box-shadow:
     0 4px 6px rgba(50, 50, 93, 0.11),
     0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.search-btn:focus {
+  outline: 0;
 }
