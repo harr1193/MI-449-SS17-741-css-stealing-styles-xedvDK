@@ -25,6 +25,7 @@ span {
 .search {
   height: 38px;
   padding: 6px 10px;
+  font-size: 20px;
   background-color: #fff;
   border: 1px solid #d4dada;
   border-radius: 3px;
